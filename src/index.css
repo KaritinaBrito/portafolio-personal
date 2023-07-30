@@ -1,0 +1,20 @@
+
+:root {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f1f3f4;
+}
+.container-responsive-all{
+  display: flex;
+  width: 100%;
+}

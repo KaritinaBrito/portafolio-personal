@@ -1,0 +1,27 @@
+.gitContainer {
+    width: 450px;
+    height: 470px;
+    border-radius: 20px;
+    background: #FFFFFF;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    position: relative;
+}
+.gitContainer img{
+    width: 350px;
+    height: 450px;
+}
+.gitContainer a{
+    color: #828282;
+    text-decoration: none;
+    position: absolute;
+    bottom: 35px;
+}
+.gitContainer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #2F80ED;
+}

@@ -1,0 +1,128 @@
+:root {
+    --white: #FFFFFF;
+    --gray2: #4F4F4F;
+    --blue: #2F80ED;
+    --fill-size: 0%;
+}
+.container-skills-hor{
+    width: 1020px;
+    height: 185px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: flex-start;
+}
+.container-skills-hor .container-title h2{
+    color: var(--gray2);
+    margin: 0;
+}
+.container-skills-hor .container-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+.container-skills-hor .skill-single{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.advance-bar{
+    width: 75%;
+    height: 10px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    position: relative;
+}
+.advance-bar div{
+    position: relative;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
+/* animacion */
+
+#react {
+    animation: react-barra 2s forwards;
+}
+@keyframes react-barra {
+    100%{
+        width: 90%;
+    }
+}
+#javascript {
+    animation: js-barra 2s forwards;
+}
+@keyframes js-barra {
+    100%{
+        width: 75%;
+    }
+}
+#css {
+    animation: css-barra 2s forwards;
+}
+@keyframes css-barra {
+    100%{
+        width: 90%;
+    }
+}
+#vue {
+    animation: vue-barra 2s forwards;
+}
+@keyframes vue-barra {
+    100%{
+        width: 60%;
+    }
+}
+#redux {
+    animation: redux-barra 2s forwards;
+}
+@keyframes redux-barra {
+    100%{
+        width: 60%;
+    }
+}
+#react-native {
+    animation: reactNat-barra 2s forwards;
+}
+@keyframes reactNat-barra {
+    100%{
+        width: 30%;
+    }
+}
+
+.container-skills-ver {
+    width: 390px;
+    height: 285px;
+    font-size: 16px;
+    gap: 0;
+    background: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.container-skills-ver .container-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 0;
+}
+.container-skills-ver .skill-single{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-skills-ver .skill-single p{
+    text-align: start;
+    width: 150px;
+    margin: 0 0 15px 0;    
+}

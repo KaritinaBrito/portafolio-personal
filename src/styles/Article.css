@@ -1,0 +1,97 @@
+:root {
+    --white: #FFFFFF;
+    --blue: #2F80ED;
+    --gray1: #333333;
+    --gray3: #828282;
+    --gray4: #E0E0E0;
+}
+.container-article-hor{
+    display: grid;
+    grid-template-areas:    "text image"
+                            "text image"
+                            "link image";
+    background: var(--white);
+    width: 1046px;
+    height: 370px;
+    margin-top: 70px;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: stretch;
+    padding: 20px 0 20px 20px;
+    font-weight: 500;
+    column-gap: 25px;
+}
+.container-article-hor .container-text{
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+}
+.container-text h3{
+    font-size: 16px;
+    color: var(--gray4);
+    margin: 0;
+    text-align: start;
+}
+.container-text h2{
+    font-size: 24px;
+    color: var(--gray1);
+    width: 178px;
+    height: 87px;
+    text-align: start;
+    margin: 20px 0;
+}
+.container-text p{
+    font-size: 16px;
+    color: var(--gray3);
+    text-align: start;
+}
+.contaienr-link{
+    grid-area: link;
+    text-align: start;
+}
+.contaienr-link a{
+    color: var(--blue);
+    text-decoration: none;
+}
+.contaienr-link a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-article-hor .container-image{
+    grid-area: image;
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
+.container-article-hor .container-image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.container-article-ver{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--white);
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container-article-ver .text-p{
+    margin-top: 250px;
+}
+.container-article-ver .container-image{
+    display: flex;
+    width: 320px;
+    height: 270px;
+}
+.container-article-ver .container-image img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    right: 0;
+    top: 15px;
+}
