@@ -4,17 +4,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
+:root {
+  --white: #FFFFFF;
+  --blue: #2F80ED;
+  --gray1: #333333;
+  --gray3: #828282;
+  --gray4: #E0E0E0;
+}
 body {
   margin: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   min-width: 320px;
-  min-height: 100vh;
-  background: #f1f3f4;
-}
-.container-responsive-all{
-  display: flex;
-  width: 100%;
+  padding: 0;
+  
 }

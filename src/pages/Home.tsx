@@ -5,11 +5,12 @@ import Hobbies from '../components/Hobbies';
 import Perfil from '../components/Perfil';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 import '../styles/Home.css'
 
 const Home = () =>{
     return(
-        <div className='homeMain'>
+        <div className='homeMain' >
             <div className='perfil'>
                 <Perfil nameClass="container-profile-hor"/>
             </div>
@@ -30,6 +31,9 @@ const Home = () =>{
             </div>
             <div className='article'>
                 <Article typeStyle="container-article-hor"/>
+            </div>
+            <div className='footer'>
+                <Footer />
             </div>
         
         </div>

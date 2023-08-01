@@ -9,13 +9,14 @@
     --gray3: #828282;
 }
 body{
-padding: 30px;
+    padding: 30px;
 }
 .container-responsive-all{
     display: flex;
     gap: 20px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    justify-content: center;
 }
 .back{
     position: absolute;

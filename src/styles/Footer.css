@@ -1,0 +1,19 @@
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px 0 0 0;
+    color: #828282;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+}
+.container-footer a{
+    text-decoration: none;
+    color: #333333;
+}
+.container-footer a:hover{
+    cursor: pointer;
+    color: #FF8989;
+}
